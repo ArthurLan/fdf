@@ -6,7 +6,7 @@
 /*   By: alanter <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/24 13:55:48 by alanter           #+#    #+#             */
-/*   Updated: 2018/07/24 23:58:15 by alanter          ###   ########.fr       */
+/*   Updated: 2018/09/24 17:15:50 by alanter          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,9 @@ static void	reset(t_mlx *mlx, int fd, char *argv)
 static void	zoom(int key, t_mlx *mlx)
 {
 	if (key == 34 && mlx->param.scale < 4096)
+	{
 		mlx->param.scale += mlx->param.zoom;
+	}
 	else if (key == 31 && mlx->param.scale > 2)
 		mlx->param.scale -= mlx->param.zoom;
 	mlx->param.voice = (mlx->param.voice != -1) ? 34 : -1;

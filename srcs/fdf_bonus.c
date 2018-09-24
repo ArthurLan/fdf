@@ -6,7 +6,7 @@
 /*   By: alanter <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/23 13:21:26 by alanter           #+#    #+#             */
-/*   Updated: 2018/07/24 21:02:36 by alanter          ###   ########.fr       */
+/*   Updated: 2018/09/24 17:15:47 by alanter          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 static void	coef(int key, t_mlx *mlx)
 {
-	if (key == 69)
+	if (key == 69 || key == 30)
 		mlx->param.coef += 5;
-	else if (key == 78)
+	else if (key == 78 || key == 33)
 		mlx->param.coef -= 5;
 	mlx->param.voice = (mlx->param.voice != -3) ? 69 : -3;
 }
@@ -45,17 +45,17 @@ static void	move(int key, t_mlx *mlx)
 
 static void	colo(int key, t_mlx *mlx)
 {
-	if (key == 83)
+	if (key == 83 || key == 18)
 	{
 		mlx->param.voice = 83;
 		mlx->param.coloredge = 0;
 	}
-	else if (key == 84)
+	else if (key == 84 || key == 19)
 	{
 		mlx->param.voice = 84;
 		mlx->param.coloredge = 1;
 	}
-	else if (key == 85)
+	else if (key == 85 || key == 20)
 	{
 		mlx->param.voice = 85;
 		mlx->param.coloredge = 2;
@@ -66,13 +66,14 @@ int			fdf_bonus(int key, t_mlx *mlx, int fd, char *argv)
 {
 	if (key == 53)
 		exit(0);
-	else if (key == 69 || key == 78)
+	else if (key == 69 || key == 78 || key == 30 || key == 33)
 		coef(key, mlx);
 	else if (key == 27 || key == 24)
 		less(key, mlx);
 	else if (key == 123 || key == 124 || key == 125 || key == 126)
 		move(key, mlx);
-	else if (key == 83 || key == 84 || key == 85)
+	else if (key == 83 || key == 84 || key == 85
+			|| key == 18 || key == 19 || key == 20)
 		colo(key, mlx);
 	else if (key == 8 && (mlx->param.voice = 8))
 		mlx->param.compressor = (mlx->param.compressor == 1) ? 0 : 1;
