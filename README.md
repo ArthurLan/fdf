@@ -42,7 +42,7 @@ example :
 ## Keys
 
 - Arrows : Move
-- + & - : Change height
+- \+ & - : Change height
 - i & o : Zoom
 - _ & = : Densification
 - C : Compressor
