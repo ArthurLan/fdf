@@ -2,7 +2,6 @@
 
 <img width="100%" src="fdf_img.png"/>
 
-![](https://gfycat.com/ImmenseTartBrahmanbull.gif)
 ## Pitch
 
 FDF is a pedagogical project from 42 School which aims to introduce the students to computer graphics.  
@@ -19,8 +18,9 @@ The result is a very basic graphic engine that runs on the CPU, written in C.
 - Color regarding heigh
 - Voice bonus
 
-![](https://gfycat.com/WeirdPowerlessLeopard.gif)
+![](https://thumbs.gfycat.com/ImmenseTartBrahmanbull-size_restricted.gif)
 
+<div class="gfyitem" data-id="WeirdPowerlessLeopard"></div><p> <a href="https://gfycat.com/weirdpowerlessleopard"></a></p>
 ## Things I have learned
 
 - Better understanding of the C programming language and how to structure the code to keep a growing program maintanable, and open to new features.
