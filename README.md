@@ -2,7 +2,7 @@
 
 <img width="100%" src="fdf_img.png"/>
 
-![](https://gfycat.com/ImmenseTartBrahmanbull)
+![](https://gfycat.com/ImmenseTartBrahmanbull.gif)
 ## Pitch
 
 FDF is a pedagogical project from 42 School which aims to introduce the students to computer graphics.  
@@ -19,7 +19,7 @@ The result is a very basic graphic engine that runs on the CPU, written in C.
 - Color regarding heigh
 - Voice bonus
 
-![](https://gfycat.com/WeirdPowerlessLeopard)
+![](https://gfycat.com/WeirdPowerlessLeopard.gif)
 
 ## Things I have learned
 
