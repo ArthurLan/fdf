@@ -15,7 +15,7 @@ The result is a very basic graphic engine that runs on the CPU, written in C.
 - Zooming
 - Moving map
 - Changing densification
-- Color regarding heigh
+- Color regarding height
 - Voice bonus
 
 ![](https://thumbs.gfycat.com/WeirdPowerlessLeopard-size_restricted.gif)
@@ -28,3 +28,24 @@ The result is a very basic graphic engine that runs on the CPU, written in C.
 - Bresenham's algorithm is applied to draw lines, resulting in a wireframe look.
 - Use of MLX library, working with visuals using code.
 - Use keyboard as controler, dealing with events in real time.
+
+## Compile and run
+
+If ./fdf does not exist use make.
+Then run './fdf <file>' test maps in ./maps_test/
+
+example :
+	
+	make
+	./fdf maps_test/test_maps/42.fdf
+
+## Keys
+
+Arrows : Move
++ & - : Change height
+i & o : Zoom
+_ & = : Densification
+C : Compressor
+R : Reset
+V : Voice
+<esc> : Quit
