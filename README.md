@@ -41,11 +41,11 @@ example :
 
 ## Keys
 
-Arrows : Move
-+ & - : Change height
-i & o : Zoom
-_ & = : Densification
-C : Compressor
-R : Reset
-V : Voice
-<esc> : Quit
+- Arrows : Move
+- + & - : Change height
+- i & o : Zoom
+- _ & = : Densification
+- C : Compressor
+- R : Reset
+- V : Voice
+- <esc> : Quit
