@@ -18,11 +18,11 @@ The result is a very basic graphic engine that runs on the CPU, written in C.
 - Color regarding height
 - Voice bonus
 
-<div style="text-align: center">
+<center>
 ![](https://thumbs.gfycat.com/WeirdPowerlessLeopard-size_restricted.gif)
 
 ![](https://thumbs.gfycat.com/ImmenseTartBrahmanbull-size_restricted.gif)
-</div>
+</center>
 ## Things I have learned
 
 - Better understanding of the C programming language and how to structure the code to keep a growing program maintanable, and open to new features.
