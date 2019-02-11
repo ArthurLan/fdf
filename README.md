@@ -48,4 +48,4 @@ example :
 - C : Compressor
 - R : Reset
 - V : Voice
-- <esc> : Quit
+- \<esc\> : Quit
